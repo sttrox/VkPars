@@ -48,19 +48,7 @@ public class Response {
         this.groups = groups;
     }
 
-    public Group getRepostGroup(int id) {
 
-        // System.out.println(idTemp +" **0");
-        int idTemp = 0;
-        for (Group group : groups) {
-            if (group != null) {
-                if (group.getId() == idTemp) {
-                    return group;
-                }
-            }
-        }
-        return null;
-    }
 
     public Group getGroup(int id) {
         for (Group group : groups) {

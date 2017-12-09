@@ -25,6 +25,7 @@
         </activity>
         <activity android:name=".TestActivity" />
         <activity android:name=".StartNews" />
+        <activity android:name=".ui.StartNewsRecyc" />
         <activity android:name=".StartSearch" />
     </application>
 

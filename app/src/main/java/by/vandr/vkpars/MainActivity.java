@@ -17,6 +17,8 @@ import com.vk.sdk.api.VKRequest;
 import com.vk.sdk.api.model.VKScopes;
 import com.vk.sdk.util.VKUtil;
 
+import by.vandr.vkpars.ui.StartNewsRecyc;
+
 public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +71,7 @@ public class MainActivity extends Activity {
     }
 
     public void OnCklickNext(View view) {
-        startActivity(new Intent(this, StartNews.class));
+        startActivity(new Intent(this, StartNewsRecyc.class));
 
     }
 }
