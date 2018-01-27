@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:background="@drawable/back">
+<ImageView
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:background="#e99a50"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:background="@color/tabsScrollColor"
+        android:gravity="center_horizontal|center"
+        android:orientation="vertical">
+
+        <TextView
+
+            style="@style/text_view"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/text_view"
+            android:text="Prototoka" />
+
+
+    </LinearLayout>
+</RelativeLayout>

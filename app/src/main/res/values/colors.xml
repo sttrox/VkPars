@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="PrimaryColor">#2196F3</color>
-    <color name="PrimaryDarkColor">#1976D2</color>
+    <color name="PrimaryColor">#c2112c</color>
+    <color name="PrimaryDarkColor">#ab0a22</color>
     <color name="indicator">#ecd95a</color>
 
     <color name="colorPrimary">#3F51B5</color>
@@ -12,5 +12,5 @@
         <color name="ColorPrimaryDark">#c31c13</color>
         <color name="tabsScrollColor">#8a140e</color>
 
-
+    <color name="color_transparent_onix">#3f257148</color>
 </resources>
